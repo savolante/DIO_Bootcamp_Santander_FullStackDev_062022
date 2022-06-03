@@ -1,0 +1,44 @@
+Primeiros passos no GitHub
+
+1º CRIAR Repositório
+	Nome;
+	Descrição;
+	Público,
+	Add Readme (Como se fosse a capa do seu diretório);
+	Create.
+
+2º COMMIT
+	O Readme pode ser editado no próprio GitHub caso queira;
+	Sempre terá a extensão .md (Markdown)
+	Para ver a sintaxe básica do Markdown, veja o link https://www.markdownguide.org/basic-syntax/
+	Depois de criar e/ou fazer as alterações, clique em COMIIT CHANGES
+
+3º CLONE
+	Assim que criar o diretório, precisa trazer ele para nossa máquina;
+	Vá no diretório criado > CODE > HTTP/SSH > Copie o link
+	Abra a sua pasta onde deseja clonar o diretório, abra com GIT BASH > Digite: git clone (cole o link)
+	Feito!
+
+O GIT BASH é um terminal extendido para otimizar o uso do GIT.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Após ter trabalhado nos arquivos (alterações) em nossa máquina, agora precisamos enviar essas atualizações para
+o GitHub (nuvem)
+
+1º VERIFICAR
+	No GIT BASH do diretório, digite GIT STATUS para ver se já identifica que tivemos alterações (mostrará em vermelho);
+
+2º ADICIONAR
+	Dê GIT ADD.  ou GIT ADD -A para o git entender que queremos adicionar essas atualização para o controle de versão;
+	Dê GIT STATUS para ver se deu certo, (ficara verdinho a msg);
+
+3º COMMIT
+	Digite GIT COMMIT -M "Dê o nome coerente para essa atualização", (importante que todos entendam);
+	Dê GIT STATUS para ver se deu certo, porém faltara empurrar para a nuvem;
+
+4º PUSH
+	Digite GIT PUSH ORIGIN MAIN, assimestaremos enviando todos os commits para a nuvem e atualizando o GitHub.
+	
+	
+	
