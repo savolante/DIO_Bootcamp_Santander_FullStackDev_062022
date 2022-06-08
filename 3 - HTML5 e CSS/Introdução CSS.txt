@@ -1,0 +1,34 @@
+SOBRE CSS
+
+	- Em 1996 foi criada como um guia de estilo para o HTML
+	- Temo os seletores (códigod hmtl) e as declarações para configurar o estilo do arquivo html
+	- Temos o ID (que no CSS representamos como #), pode ser usado apenas uma vez na página
+	- Temos as CLASS (que no CSS representamos com . )
+________________________________________________________________________________________________________________________
+
+CRIANDO UM CSS PARA O HTML
+
+	1. Criamos um arquivo style.css
+
+	2. Vá no arquivo HTML e referencie o arquivo CSS
+		<head>
+		     <link rel="stylesheet" href="style.css">
+
+	3. Vá nos itens que deseja editar o estilo, como por exemplo, titulo, subtitulo, corpo do texto, etc
+		<h1 id="title"> Título principal </h1>
+		<h2 class="subtitle"> Posts </h2>
+		<h3 class="post_title"> Post #1 <h3>
+	
+	4. Vá no arquivo CSS, iremos criar um grupo de elementos referente aos dados acima
+		#title, .subtitle, .post_title {
+			color: blue;
+		}
+
+		.pots_title {
+			font-soze: 16px;
+			font-style: italic;
+		}
+
+________________________________________________________________________________________________________________________
+
+O que fizemos acima, foi editar os estilos do arquivo html por meio do CSS.

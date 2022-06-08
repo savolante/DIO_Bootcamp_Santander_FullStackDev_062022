@@ -1,0 +1,49 @@
+Ótimo site para iniciantes: https://developer.mozilla.org/pt-BR/docs/Web/HTML
+
+SOBRE HTML
+
+	- última versão lançada foi o HTML5 em 2014
+	- No HTML tudo é um elemento
+________________________________________________________________________________________________
+
+ESTRUTURA BÁSICA
+
+	<!DOCTYPE html>
+		<hmtl> (Raiz do documento)
+     			<head> (elementos lido pelo navegador)
+				<meta>
+	    			 <title> xxx </title>
+    			</head>
+    			<body> (aqui fica todo o conteúso que mostra para o usuário)
+     			</body>
+		</html>
+
+_______________________________________________________________________________________________
+
+TEXTOS E LINKS
+ 
+	- <h1...h6> tamanho das fontes </h1.../h6>
+	- <p> </p> (conteúdo geral)
+	- <a> </a> (link)
+	- <a href="xxxxxlinkxxxxx"> nome do link </a> (texto lincável)
+	- <a href="mailto:xxxx@xxx.com"> email </a> (texto do email)
+	- <a target="_blanck"> link </a> (abre em outra aba do navegador)
+
+________________________________________________________________________________________________
+
+IMAGENS
+
+	<img>
+	<img src="xxxx.jpg"> (salva o caminho da imagem)
+	<img alt="Texto da Imagem"> (não é obrigatório, porém indicado,
+				     pois mostra a descrição na tela caso a imagem não abra)
+
+________________________________________________________________________________________________
+
+LISTAS
+
+	- Servem para agrupar uma coleção de itens
+	- <ul> </ul> (a ordem dos itens NÃO É IMPORTANTE)
+	- <ol> </ol> (a ordem dos intens É IMPORTANTE)
+	- <li> </li> (inclui itens da lista)
+	
