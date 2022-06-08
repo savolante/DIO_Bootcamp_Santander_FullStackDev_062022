@@ -1,8 +1,7 @@
 ## BOOTCAMP SANTANDER FULLSTACK DEVELOPER
-### Desafio de Projeto sobre Git/GitHub da DIO 
 
-Repositório criado para os Desafios de Projetos. <br>
 Neste repositório deixarei registrado um resumo geral de todo meu andamento no Bootcamp.
 
 ### Links Úteis
-[Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
+Sintaxe Markdown: [Markdown Guide](https://www.markdownguide.org/basic-syntax/)</br>
+Sintaxe HTML: [MDN Web](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) e [W3 Schol](https://www.w3schools.com/html/) 
