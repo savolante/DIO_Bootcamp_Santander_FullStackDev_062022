@@ -1,0 +1,59 @@
+PRINCIPAIS OPERAÇÕES NO JS
+
+ATRIBUIÇÃO
+
+=	atribuição
++=	adicionar uma variável a outra
+*=	multiplicar variável adicionando
+/=	dividir variável adicionando
+%=	retorna o resta da divisão
+
+
+ARITIMÉTICA
+
++	adição
+-	subtração
+*	multiplicação
+**	exponencial
+/	divisão
+%	módulo
+++	incrementa
+--	decrementa
+
+
+COMPARAÇÃO
+
+==	igual a
+===	igual no valor o no tipo
+!=	diferente
+!==	diferente no valor e tipo
+>	maior
+<	menor
+>=	maior ou igual
+<=	menor ou igual
+
+
+LÓGICO
+
+&&	"e" lógico
+||	"ou" lógico
+!	"não" lógico
+
+
+CONDICIONAL (TERNÁRIO)
+
+     ______________false________________
+    |					|
+    |	____________true______________  |
+    |  |			      | |
+(condition)   ?   expression1   :   expression2
+	Op1		 Op2		    Op3
+
+É A MESMA COISA QUE:  IF (condition) Op1
+			  statement; Op2
+		      ELSE
+			  statement; Op3		
+
+
+
+	
